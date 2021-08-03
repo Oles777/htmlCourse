@@ -1,0 +1,50 @@
+.tr, .image, .image2, .image3, .image4, .image5 {
+  width: 1000px;
+  height: 450px;
+}
+
+.title, .title2, .title3, .title4, .title5 {
+  font-size: 45px;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  color: royalblue;
+}
+
+.block {
+  text-align: center;
+  color: royalblue;
+}
+
+.title6 {
+  text-align: left;
+  font-size: 45px;
+  font-weight: 700;
+  font-style: italic;
+  color: royalblue;
+}
+
+.block2 {
+  text-align: left;
+}
+
+.block3 {
+  text-align: right;
+}
+
+.block4 {
+  text-align: center;
+}
+
+.block5 {
+  text-align: left;
+}
+
+.block6 {
+  text-align: left;
+  font-size: 45px;
+  font-weight: 700;
+  font-style: italic;
+  color: royalblue;
+}
+/*# sourceMappingURL=style.css.map */

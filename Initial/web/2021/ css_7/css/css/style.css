@@ -1,0 +1,17 @@
+.list li:before{
+content: '';
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: red;
+display: inline-block;
+margin-right: 10px;
+}
+.text5:first-letter{
+font-size: 50px;
+color: red;
+}
+.text6:first-line{
+    font-size: 30px;
+    color: green;
+}
