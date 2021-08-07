@@ -1,0 +1,10 @@
+{
+  "attr-value-not-empty": false,
+	"tags-check": true,
+	"tag-pair": true,
+	"tag-self-close": true,
+	"tagname-lowercase": true,
+	"empty-tag-not-self-closed": true,
+	"src-not-empty": true,
+	"href-abs-or-rel": true
+}
