@@ -1,3 +1,7 @@
+body{
+	width: 1440px;
+}
+
 .header {
   display: grid;
 }
@@ -31,7 +35,7 @@
   height: 537px;
   background-color: rgb(243, 240, 240);
   object-fit: cover;
-  margin-top: 385px;
+  margin-top: 300px;
   margin-left: 63px;
 }
 
@@ -79,3 +83,42 @@
   font-size: 18px;
   font-style: bold;
 }
+
+.vertical{
+	margin-top: 400px;
+}
+
+.vertical_row{
+	display: flex;
+	margin: 0 -27.5px;
+	justify-content: center;
+}
+
+.vertical_column{
+	flex:0 1 25%;
+	margin-right: 30px;
+	padding: 0 27.5px;
+	display: flex;
+}
+
+.vertical_image{
+	margin-bottom: 90px;
+}
+
+.vertical_title{
+	margin-bottom: 20px;
+	font-size: 24px;
+	font-style: bold;
+}
+
+.text_1{
+	margin-bottom: 25px;
+	font-size: 16px;
+}
+
+.text_2{
+font-size: 18px;
+font-weight: bold;
+color: #f78065;
+}
+
