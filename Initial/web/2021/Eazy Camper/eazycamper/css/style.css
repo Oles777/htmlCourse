@@ -1,6 +1,4 @@
-body {
-  width: 1440px;
-}
+
 
 .header {
   display: grid;
@@ -166,3 +164,78 @@ body {
   font-weight: bold;
   color: #f78065;
 }
+
+.join{
+	margin-top: 260px;
+}
+
+.join_row {
+  display: flex;
+  margin: 0 -27.5px;
+}
+
+.join_column {
+  flex: 0 1 230px;
+  padding: 0 27.5px;
+	display: flex;
+}
+
+.join_column_start{
+  flex: 0 0 305px;
+  padding: 0 27.5px;
+	display: flex;
+}
+
+.join_btn{
+	display: grid;
+  grid-template-columns: 100px 150px;
+  margin-top: 30px;
+  margin-right: 255px;
+  background-color: #f78065;
+  line-height: 55px;
+  text-align: center;
+  align-items: center;
+}
+
+.join_btn_icon{
+	margin-left: 75px;
+}
+
+.join_btn_text{
+	justify-items: left;
+	color:white;
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 105px;
+}
+
+.title{
+font-size: 36px;
+font-weight: bold;
+}
+
+.text{
+	font-size: 18px;
+	opacity: 50%;
+}
+
+.join_title{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.join_text{
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.join_link{
+	font-size: 18px;
+	color:#f78065;
+}
+
+body {
+  width: 1440px;
+	margin-left: 30px;
+}
+
