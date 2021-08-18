@@ -1,4 +1,6 @@
 
+
+
 body {
   width: 1440px;
 	margin-left: 30px;
@@ -93,15 +95,15 @@ body {
 
 .vertical_row {
   display: flex;
-  margin: 0 -27.5px;
   justify-content: center;
+	margin: 0 27.5px;
 }
 
 .vertical_column {
   flex: 0 1 25%;
   margin-right: 30px;
-  padding: 0 27.5px;
   display: flex;
+	padding: 0 27.5px;
 }
 
 .vertical_image {
@@ -128,6 +130,7 @@ body {
 
 .columns {
   margin-top: 240px;
+	margin-left: 70px;
 }
 
 .columns_row {
@@ -175,6 +178,7 @@ body {
 
 .join{
 	margin-top: 260px;
+	margin-left: 70px;
 }
 
 .join_row {
@@ -245,6 +249,7 @@ font-weight: bold;
 
 .advantages{
 	margin-top: 235px;
+	margin-left: 70px;
 }
 
 .advantages_row {
@@ -281,4 +286,102 @@ font-weight: bold;
 	opacity: 50%;
 	line-height: 24px;
 }
+
+.footer{
+	margin-top: 250px;
+}
+
+.footer_container{
+	width: 1440px;
+	height: 670px;
+	background-color: rgb(243, 240, 240);
+}
+
+.menu_row {
+  display: flex;
+  margin: 0 -27.5px;
+  text-align: left;
+	margin-bottom: 95px;
+}
+
+.menu_column-1{
+	flex: 0 1 210px;
+  margin-right: 225px;
+	padding: 0 27.5px;
+  display: flex;
+	margin-bottom: 70px;
+	margin-left: 70px;	
+}
+
+.menu_column {
+  flex: 0 1 210px;
+  margin-right: 30px;
+  padding: 0 27.5px;
+  display: flex;
+}
+
+.menu_list li{
+	list-style: none;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+.menu_name{
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 25px;
+	margin-top: 100px;
+}
+
+.menu_text{
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.menu_title{
+	margin-top: 100px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.menu_border{
+	border-bottom: 1px solid black;
+	opacity: 20%;
+}
+
+.footer_info{
+	margin-top: 30px;
+}
+
+.info_row {
+  display: flex;
+  margin: 0 -27.5px;
+  text-align: left;
+}
+
+.info_column-1{
+	flex: 0 1 225px;
+  margin-right: 525px;
+	padding: 0 27.5px;
+  display: flex;
+	margin-left: 70px;	
+}
+
+.info_column{
+	flex: 0 1 auto;
+	padding: 0 27.5px;
+  display: flex;	
+}
+
+.info_title{
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
 
